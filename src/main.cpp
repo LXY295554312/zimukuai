@@ -24,3 +24,20 @@ int swap(int argc, char** argv) {
    // 连接服务器
    CalculatorClient client(grpc::CreateChannel(
        "localhost:50051", grpc::InsecureChannelCredentials())); 
+       
+class main
+{
+private:
+    /* data */
+public:
+    main(/* args */);
+    ~main();
+};
+
+main::main(/* args */)
+{
+}
+
+main::~main()
+{
+}
