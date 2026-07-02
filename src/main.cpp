@@ -19,3 +19,8 @@ int main() {
 
     return 0;
 }
+
+int swap(int argc, char** argv) {
+   // 连接服务器
+   CalculatorClient client(grpc::CreateChannel(
+       "localhost:50051", grpc::InsecureChannelCredentials())); 
